@@ -6,7 +6,7 @@
   "license": "MIT",
   "scripts": {
     "start": "nodemon scr/server.js",
-    "test": "jest --watchAll --verbose --coverage"
+    "test": "jest --forceExit"
   },
   "dependencies": {
     "body-parser": "^1.20.2",

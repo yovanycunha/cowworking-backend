@@ -6,7 +6,10 @@
   "license": "MIT",
   "scripts": {
     "start": "nodemon scr/server.js",
-    "test": "jest --forceExit"
+    "test": "jest --forceExit",
+    "test:watch": "jest --watchAll",
+    "test:coverage": "jest --coverage --forceExit",
+    "prepare": "husky install"
   },
   "dependencies": {
     "body-parser": "^1.20.2",
@@ -20,6 +23,7 @@
     "eslint": "^7.32.0 || ^8.2.0",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-plugin-import": "^2.25.2",
+    "husky": "^8.0.3",
     "jest": "^29.6.2",
     "nodemon": "^3.0.1"
   }
